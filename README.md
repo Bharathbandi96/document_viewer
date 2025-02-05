@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
+The Document Viewer Component is a React/Next-based UI module that allows users to view documents and files. It provides a structured layout for folders and files, enabling easy navigation and document access.
 
-First, run the development server:
+### Functionality and Key Features
+1. Displays a list of folders and files in a hierarchical structure.
+2. Supports opening and previewing documents (e.g., PDFs, Word files, images) within folders.
+3. Handles sorting folders and files based on folder/file name.
+4. Provides search functionality to search files by file name.
+
+
+### Technologies Used
+React – Core framework for UI rendering.
+Tailwind CSS / Material-UI – Ensures a modern and clean design.
+Local JSON – Handles document retrieval.
+React Testing Library and Jest - Enables testing React components and core functionality.
+
+
+
+## To view the application, run the development server:
 
 ```bash
+# To build the application, run the below command
+npm run build
+
+#TO host the application, run the below command
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+#To run test cases, run the below command
+npm run test
+
+#to run test cases in watch mode, run the below command
+npm run test:watch
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Application will be hosted at [http://localhost:3000](http://localhost:3000). Open in browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Further Enhancements,
+1. Sorting is done based on file name. But it can be done by Id, type, and DateAdded. We just need to finetune the 'handleSort' function available in utilities to accept additional parameter which can used to sort the folders/files.
+2. Based on file type, we can render relevant icon that indicates the file type visually.

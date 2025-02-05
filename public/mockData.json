@@ -1,0 +1,136 @@
+[
+    {
+        "id": "1",
+        "name": "Documents",
+        "type": "folder",
+        "dateAdded": "2024-01-01",
+        "contents": [
+            {
+                "id": "12",
+                "name": "Resume.pdf",
+                "type": "PDF Document",
+                "size": "1MB",
+                "dateAdded": "2024-01-05",
+                "folderId": "1"
+            },
+            {
+                "id": "13",
+                "name": "Project.docx",
+                "type": "Microsoft Word Document",
+                "size": "500KB",
+                "dateAdded": "2024-01-10",
+                "folderId": "1"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "PDFs",
+        "type": "folder",
+        "dateAdded": "2024-01-01",
+        "contents": [
+            {
+                "id": "21",
+                "name": "markscard.pdf",
+                "type": "PDF Document",
+                "size": "1MB",
+                "dateAdded": "2024-01-05",
+                "folderId": "2"
+            },
+            {
+                "id": "22",
+                "name": "electricity.pdf",
+                "type": "PDF Document",
+                "size": "500KB",
+                "dateAdded": "2024-01-10",
+                "folderId": "2"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Others",
+        "type": "folder",
+        "dateAdded": "2024-01-02",
+        "contents": [
+            {
+                "id": "31",
+                "name": "test.doc",
+                "type": "Microsoft Word Document",
+                "size": "2MB",
+                "dateAdded": "2024-01-08",
+                "folderId": "3"
+            },
+            {
+                "id": "32",
+                "name": "users.xlsx",
+                "type": "Microsoft Excel Worksheet",
+                "size": "2MB",
+                "dateAdded": "2024-01-08",
+                "folderId": "3"
+            },
+            {
+                "id": "33",
+                "name": "Photo1.js",
+                "type": "JavaScript File",
+                "size": "2MB",
+                "dateAdded": "2024-01-08",
+                "folderId": "3"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Images",
+        "type": "folder",
+        "dateAdded": "2024-01-02",
+        "contents": [
+            {
+                "id": "41",
+                "name": "Photo1.jpg",
+                "type": "jpgfile",
+                "size": "2MB",
+                "dateAdded": "2024-01-08",
+                "folderId": "4"
+            },
+            {
+                "id": "42",
+                "name": "Photo2.jpg",
+                "type": "jpgfile",
+                "size": "2MB",
+                "dateAdded": "2024-01-08",
+                "folderId": "4"
+            },
+            {
+                "id": "43",
+                "name": "Photo3.jpg",
+                "type": "jpgfile",
+                "size": "2MB",
+                "dateAdded": "2024-01-08",
+                "folderId": "4"
+            },
+            {
+                "id": "44",
+                "name": "Photo4.jpg",
+                "type": "jpgfile",
+                "size": "2MB",
+                "dateAdded": "2024-01-08",
+                "folderId": "4"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Personal Files",
+        "type": "folder",
+        "dateAdded": "2024-01-01"
+    },
+    {
+        "id": "6",
+        "name": "Project.docx",
+        "type": "Microsoft Word Document",
+        "size": "500KB",
+        "dateAdded": "2024-01-10",
+        "folderId": ""
+    }
+]
