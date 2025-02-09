@@ -34,15 +34,15 @@ npm run test
 
 # Run test cases in watch mode
 npm run test:watch
-
-#Or
-
-# Use this below link to view the application
-[https://document-viewer-five.vercel.app/](https://document-viewer-five.vercel.app/)
 ```
 
 
 Once started, the application will be hosted at http://localhost:3000. Open it in your browser to view the result.
+
+Or 
+
+You can access the application using the link below:
+Application URL- https://document-viewer-five.vercel.app/
 
 
 ### Further Enhancements
