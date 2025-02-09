@@ -33,6 +33,9 @@ npm run test
 
 # Run test cases in watch mode
 npm run test:watch
+
+# To view the application
+https://document-viewer-five.vercel.app/
 ```
 
 
