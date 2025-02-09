@@ -13,8 +13,8 @@ The Document Viewer Component is a React/Next.js-based UI module that allows use
 
 ### Technologies Used
 
-1. React – Core framework for UI rendering.
-2. Tailwind CSS / Material-UI – Ensures a modern and clean design.
+1. React/Next – The core framework for UI rendering.
+2. Tailwind CSS – Ensures a modern and clean design.
 3. Local JSON – Handles document retrieval.
 4. React Testing Library & Jest – Enables testing of React components and core functionality.
 
@@ -22,6 +22,7 @@ The Document Viewer Component is a React/Next.js-based UI module that allows use
 ## To view the application, run the development server:
 
 ```bash
+#Follow the below steps once you clone the application,
 # Build the application
 npm run build
 
@@ -34,8 +35,10 @@ npm run test
 # Run test cases in watch mode
 npm run test:watch
 
-# To view the application
-https://document-viewer-five.vercel.app/
+#Or
+
+# Use this below link to view the application
+[https://document-viewer-five.vercel.app/](https://document-viewer-five.vercel.app/)
 ```
 
 
@@ -44,5 +47,5 @@ Once started, the application will be hosted at http://localhost:3000. Open it i
 
 ### Further Enhancements
 
-1. Advanced Sorting – Currently, sorting is based on file name, but it can be expanded to include ID, File type and Date added. This can be achieved by fine-tuning the handleSort function in the utilities module to allow sorting by additional parameters.
-2. File Type Icons – Based on file type, we can render relevant icons to visually indicate different document types.
+1. Advanced Sorting – Sorting is based on file name, but it can be expanded to include ID, File type and Date added. This can be achieved by fine-tuning the handle sort function in the utilities module to allow sorting by additional parameters.
+2. File Type Icons — We can render relevant icons to indicate different document types visually based on file type.
